@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Pacifico&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+}
+
+body {
+	font-family: Outfit, sans-serif;
+	font-size: 15px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: hsl(212, 45%, 89%);
+}
+
+.box {
+	padding: 1rem;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 1em;
+}
+
+h1, h2 {
+	margin-top: 2rem;
+	text-align: center;
+	max-width: 17rem;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 15px;
+	margin-bottom: 1rem;
+	color: hsl(220, 15%, 55%);
+}
+
+.box img {
+	border-radius: 1em;
+}
+
+.attribution {
+	margin-top: 1rem;
+	max-width: 288px;
+	text-align: center;
+}
